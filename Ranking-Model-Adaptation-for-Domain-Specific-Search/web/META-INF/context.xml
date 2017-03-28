@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Ranking">
+  <Logger className="org.apache.catalina.logger.FileLogger" prefix="Ranking." suffix=".log" timestamp="true"/>
+</Context>

@@ -1,0 +1,189 @@
+/*COMMON STYLES*/
+body {
+	background:#D3D4D6 url(../images/body_bg.jpg);
+	margin:0;
+	padding:0;
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dl{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	}
+	li
+	{
+	list-style-type:none;
+	}
+   a{
+	text-decoration:none;
+	color:#000000;
+	outline:none;
+	}
+	a:hover{
+		text-decoration:none;
+	}
+	img{
+		border:0;
+		vertical-align:top;
+	}
+	.clsFloatLeft{
+		float:left;
+	}
+	.clsFloatRight{
+		float:right;
+	}
+/*--------END OF COMMON STYLES ---------*/	
+/*--------CLEARFIX FOR FLAOTING PROBLEM'S-------*/
+	.clsClearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clsClearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clsClearfix {
+	display: block;
+}
+ 
+* html .clsClearfix {
+	height: 1%;
+  }
+
+/*------SERVICES CORNERS------*/
+
+
+/*------Rounded Corners-------*/
+/*--------CONTAINER-------*/
+#Container {
+	width:1000px;
+	margin:0 ;
+}
+#top {
+	left:-999em;
+	position:absolute;
+}
+/*--------LOGO------*/
+
+#selSlogon {
+	padding:35px 0 33px 59px;;
+}
+#selSlogon p {
+	font:18px Georgia, "Times New Roman", Times, serif; 
+}
+/*---------SUBMENU---------*/
+#submenu {
+	padding-left:240px;
+}
+.clsSubmenu_left {
+	padding-left:7px;
+	background:url(../images/submenu_left.PNG) no-repeat scroll left;
+}
+.clsSubmenu_right {
+	padding-right:7px;
+	background:url(../images/submenu_right.png) no-repeat scroll right;
+} 
+.clsSubmenu_center {
+	background:url(../images/submenu_center.jpg) repeat-x scroll 0;
+	height:73px;
+}
+#submenu ul {
+	margin-left:29px;
+}
+#submenu li {
+	float:left;
+	margin-right:28px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+}
+#submenu li a {
+	display:block;
+	line-height:68px;
+	text-align:center;
+	width:110px;
+	color:#FFF;
+}
+#submenu li a:hover , a.current {
+	bgcolor:url(../images/menu_over.jpg) no-repeat top;
+}
+/*--------BANNER-------*/
+
+/*--------CONTENT---------*/
+#Content {
+	margin-left:3px;
+	height:1%;
+}
+/*-------WELCOME--------*/
+.clsWelcome {
+	color:#000000;
+	font:13px "Trebuchet MS";
+}
+.clsWelcome h2 {
+	background:url(../images/h2_welcome.jpg) no-repeat scroll left 5px;
+	font: bold 18px Cambria;
+	padding:35px 0 35px 50px;
+}
+.clsWelcome p {
+	font: 13px Arial, Helvetica, sans-serif;
+	padding-bottom:21px;
+}
+.clsWelcome p span {
+	color:#237773;
+	font-weight:bold;
+}
+.clsWelcome p a {
+	color:#237773;
+	text-decoration:underline;
+}
+/*-------SERVICES--------*/
+#services {
+	margin:10px 0 0 6px;
+}
+#services h3 {
+	text-align:center;
+	font:bold 18px "Times New Roman", Times, serif;
+}
+#services img {
+	margin:26px 0;
+}
+#services p {
+	margin:0 5px;
+}
+
+
+
+/*---------Footer-----*/
+#footer
+{
+
+	padding-top:228px;
+	color:#FFF;
+}	
+.clsFooter_left {
+	padding-left:5px;
+	background:url(../images/footer_left.jpg) no-repeat scroll left;
+}
+.clsFooter_right {
+	padding-right:5px;
+	background:url(../images/footer_right.jpg) no-repeat scroll right;
+}
+.clsFooter_center {
+	height:55px;
+	width:1125px;
+	background:url(../images/footer_center.jpg) repeat-x scroll center;
+}
+
+#footer p {
+	padding:20px;
+	float:center;
+	}
+#footer	.clsborder a {
+    background:url(../images/footer_nav_border.jpg) no-repeat right center;
+    
+    margin:0;
+    }
